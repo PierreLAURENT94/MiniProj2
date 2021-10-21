@@ -1,0 +1,80 @@
+; ===============================================================
+; VCardRdr.inf 
+; 
+; Installation inf for Virtual SmartCard Driver for NT based Windows.
+;
+; Copyright (c) Y.Volta (y.volta@gmail.com)
+; rev 2008-04-12 20:00, 15870687
+; ===============================================================
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=SmartCardReader
+ClassGUID={50dd5230-ba8a-11d1-bf5d-0000f805f530}
+Provider=%OEM%;
+DriverVer=04/12/2008,1.0.8.412
+;CatalogFile=VSmc.cat
+
+[DestinationDirs]
+DefaultDestDir = 10,System32\Drivers
+CoInstaller_CopyFiles = 11; System Dir( system32 on NT )
+
+[Manufacturer]
+%StdMfg%=Standard
+
+[Standard]
+; DisplayName       		          Section                  DeviceId
+; -----------       		          -------                  --------
+%VSmc.DeviceDesc%	=   	           VSmc,                 VSmc\VCardRdr
+
+
+
+;**************************************************
+; Common smartcard driver Install Section
+;**************************************************
+
+[VSmc.NT]
+CopyFiles=VSmc_CopyFiles
+
+[VSmc_CopyFiles]
+VCardRdr.sys
+
+
+;-------------- Common smartcard Service installation
+[VSmc.NT.Services]
+AddService = VSmcBase,%SPSVCINST_ASSOCSERVICE%,VSmc_Service_Inst
+
+; -------------- PC/SC driver install sections
+[VSmc_Service_Inst]
+DisplayName    = %VSmc.SVCName%
+Description    = %VSmc.SVCDesc%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START 
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\VCardRdr.sys
+LoadOrderGroup = Extended Base
+
+
+;-----------------Source system files
+[SourceDisksNames]
+1 = %DiskId1%,,,""
+
+[SourceDisksFiles]
+VCardRdr.sys  	= 1,,
+
+
+[Strings]
+
+OEM                  = "Y.Volta (y.volta@gmail.com)"
+StdMfg               = "(virtual system device)"
+
+DiskId1              = "Smartcard Driver Installation Disk #1"
+
+SPSVCINST_ASSOCSERVICE = 0x00000002
+
+VSmc.DeviceDesc      = "Virtual PnP SmartCard Device"
+VSmc.SVCName         = "Virtual PnP SmartCard Device"
+VSmc.SVCDesc         = "Virtual PnP SmartCard Service"
+
+; ========================================== End of file =====
+

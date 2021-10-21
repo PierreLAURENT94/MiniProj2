@@ -1,0 +1,10 @@
+#include "SCardmgr.h"
+#include <winscard.h>
+#pragma comment (lib, "winscard.lib")
+using namespace std;
+
+int main(){
+	CSCardmgr SmartCards;
+
+	return 0;
+}

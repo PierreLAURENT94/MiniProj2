@@ -1,0 +1,8 @@
+#include "PCSCConnector.h"
+using namespace std;
+
+int main(){
+	ReaderList;
+
+	return 0;
+}

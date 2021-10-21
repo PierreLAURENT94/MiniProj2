@@ -1,0 +1,8 @@
+#include "PCSCConnector.h"
+using namespace std;
+
+int main(){
+	PCSCConnector SmartCards;
+
+	return 0;
+}

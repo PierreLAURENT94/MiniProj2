@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/10/21 17:19:26.000.196,=C:\Users\pierr\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
+    <Transaction>2021/10/21 17:19:26.000.483,=C:\Users\pierr\Documents\Embarcadero\Studio\Projets\File1.cpp</Transaction>
+    <Transaction>2021/10/21 17:21:01.000.078,C:\Users\pierr\Documents\Embarcadero\Studio\Projets\File1.cpp=C:\Users\pierr\Desktop\Git\MiniProj2\cpp\File1.cpp</Transaction>
+    <Transaction>2021/10/21 17:21:02.000.734,C:\Users\pierr\Documents\Embarcadero\Studio\Projets\Project1PCH1.h=C:\Users\pierr\Desktop\Git\MiniProj2\cpp\Project1PCH1.h</Transaction>
+    <Transaction>2021/10/21 17:21:04.000.574,C:\Users\pierr\Documents\Embarcadero\Studio\Projets\Project1.cbproj=C:\Users\pierr\Desktop\Git\MiniProj2\cpp\Project1.cbproj</Transaction>
+    <Transaction>2021/10/21 17:24:36.000.713,=C:\Users\pierr\Desktop\Git\MiniProj2\cpp\SCardmgr.cpp</Transaction>
+    <Transaction>2021/10/21 17:52:37.459,=C:\Users\pierr\Desktop\Git\MiniProj2\cpp\PCSCConnector.cpp</Transaction>
+  </Transactions>
+</BorlandProject>
