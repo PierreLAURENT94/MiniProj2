@@ -1,0 +1,25 @@
+/* styles.css */
+
+/* Add styles here to customize the appearance of your app */
+
+@font-face {
+    font-family: "Arial Rounded MT Bold";
+    src: url("arial-rounded-mt-bold.woff");
+}
+
+body{
+    font-family: "Arial Rounded MT Bold" !important;
+    background-image: url("logo.png") !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-position: center center !important;
+    background-size: 10% !important;
+}
+
+#info{
+    text-align: center;
+    position: sticky;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
