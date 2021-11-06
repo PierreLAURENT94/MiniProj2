@@ -110,11 +110,11 @@ function Afficheur(){
         </thead>
         <tbody>
           <tr>
-            <td>Pierre</td>
-            <td>12s</td>
-            <td>2/3</td>
-            <td>12s</td>
-            <td><mark>2/3</mark></td>
+            <td data-label="Nom">Pierre</td>
+            <td data-label="Temps étapes 1">12s</td>
+            <td data-label="Rang étapes 1">2/3</td>
+            <td data-label="Temps final">12s</td>
+            <td data-label="Rang final"><mark>2/3</mark></td>
           </tr>
           <tr>
             <td>Vincent</td>
@@ -129,6 +129,13 @@ function Afficheur(){
             <td>3/3</td>
             <td>18s</td>
             <td><mark>3/3</mark></td>
+          </tr>
+          <tr>
+            <td data-label="Nom">Retardo</td>
+            <td data-label="Temps étapes 1"><div class="spinner" style="margin: 0;width: .75rem;height: .75rem;animation-duration: 3s"></div></td>
+            <td data-label="Rang étapes 1"><div class="spinner" style="margin: 0;width: .75rem;height: .75rem;animation-duration: 3s"></div></td>
+            <td data-label="Temps final"><div class="spinner" style="margin: 0;width: .75rem;height: .75rem;animation-duration: 3s"></div></td>
+            <td data-label="Rang final"><div class="spinner primary" style="margin: 0;width: .75rem;height: .75rem;animation-duration: 3s"></div></td>
           </tr>
         </tbody>
       </table>
