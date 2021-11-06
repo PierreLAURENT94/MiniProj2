@@ -8,3 +8,5 @@ npm init
 npm install electron pcsclite smartcard open
 npm start
 ```
+
+> Pierre LAURENT • Nov 2021
