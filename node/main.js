@@ -15,7 +15,7 @@ function createWindow(){
   });
   mainWindow.loadFile("index.html");
   mainWindow.setMenuBarVisibility(false);
-  //mainWindow.webContents.openDevTools();
+  mainWindow.webContents.openDevTools();
 }
 
 app.whenReady().then(createWindow);
@@ -36,19 +36,36 @@ ipcMain.on('GitHub', (event, arg) => {
   open("https://github.com/PierreLAURENT94/MiniProj2");
 })
 
+var scanner = false;
+var nomCarte = "";
+var eventScanner = null;
+ipcMain.on('Scanner', (event, arg) => {
+  scanner = true;
+  nomCarte = arg;
+  eventScanner = event;
+})
+
+ipcMain.on('Cartes', (event, arg) => {
+  event.reply('Cartes', cartes);
+})
+
+var eventATRConnecte = null;
+ipcMain.on('ATRConnecte', (event, arg) => {
+  eventATRConnecte = event;
+})
 // ----------------------------
-/*
+
 const Devices = smartcard.Devices;
 const devices = new Devices();
 devices.on("device-activated", LecteurConnecte);
-*/
+
 var nomCourse = "SCHNEIDER ELECTRIC MARATHON DE PARIS 2022";
-var logoCourse = "https://upload.wikimedia.org/wikipedia/fr/thumb/a/a6/Logo_Marathon_de_Paris.svg/1024px-Logo_Marathon_de_Paris.svg.png";
+var logoCourse = "https://upload.wikimedia.org/wikipedia/commons/5/5a/Paris_Marathon_Logo_2013.png";
 
 var server = http.createServer();
 server.on("request", Requete);
 
-var coureurs = [];
+var cartes = [["Pierre", "vfjvvjsnvjcnjc", 500]]; // [0:[0:nom, 1:atr, 2:temps], 1:[0:nom, 1:atr, 2:temps]]
 
 function Requete(request, response){
     response.writeHead(200, {"Content-type": "text/html; charset=utf-8"});
@@ -70,6 +87,7 @@ function CarteConnecte(event){
 }
 
 function ATRConnecte(ATR){
+  /*
     var deja = false;
     var numCoureurs;
     for(var tour = 0; tour < coureurs.length; tour++){
@@ -83,6 +101,19 @@ function ATRConnecte(ATR){
             numCoureurs = coureurs.length;
     }
     console.log("Passage du coureur numero: " + numCoureurs);
+    */
+    eventATRConnecte.reply('ATRConnecte', ATR);
+    if(scanner){
+      cartes.push([nomCarte, ATR, 500]);
+      eventScanner.reply('Scanner', 'OK');
+      scanner = false;
+      nomCarte = "";
+      eventScanner = null;
+    }
+    else{
+
+    }
+    console.log(cartes);
 }
 
 var afficheur = "";

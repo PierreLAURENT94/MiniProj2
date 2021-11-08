@@ -6,6 +6,19 @@
 ```bat
 npm init
 npm install electron pcsclite smartcard open
+npm i -D electron-rebuild
+
+// Supprimez le dossier node-modules, ainsi que le fichier packages-lock.json
+
+npm i
+.\node_modules\.bin\electron-rebuild.cmd
+
+//Ajouter:
+//"scripts": {
+//    "start": "electron ."
+//},
+//dans le le fichier packages.json
+
 npm start
 ```
 > Pierre LAURENT • Nov 2021
