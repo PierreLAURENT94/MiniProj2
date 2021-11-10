@@ -21,4 +21,4 @@ npm i
 
 npm start
 ```
-> Pierre LAURENT • Nov 2021
+> Pierre LAURENT • Vincent LORCY • Nov 2021
