@@ -65,7 +65,7 @@ var logoCourse = "https://upload.wikimedia.org/wikipedia/commons/5/5a/Paris_Mara
 var server = http.createServer();
 server.on("request", Requete);
 
-var cartes = [["Pierre", "vfjvvjsnvjcnjc", 500]]; // [0:[0:nom, 1:atr, 2:temps], 1:[0:nom, 1:atr, 2:temps]]
+var cartes = [["Pierre", "3b8f80014545458f666s", 500]]; // [0:[0:nom, 1:atr, 2:temps], 1:[0:nom, 1:atr, 2:temps]]
 
 function Requete(request, response){
     response.writeHead(200, {"Content-type": "text/html; charset=utf-8"});
@@ -113,7 +113,6 @@ function ATRConnecte(ATR){
     else{
 
     }
-    console.log(cartes);
 }
 
 var afficheur = "";

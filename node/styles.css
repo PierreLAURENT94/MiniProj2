@@ -2,6 +2,10 @@
 
 /* Add styles here to customize the appearance of your app */
 
+:root{
+    --carte: #54b2e4;
+}
+
 @font-face {
     font-family: "Arial Rounded MT Bold";
     src: url("arial-rounded-mt-bold.woff");

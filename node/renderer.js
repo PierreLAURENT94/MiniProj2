@@ -29,18 +29,36 @@ function Cartes(event, arg){
         <input type="checkbox" id="collapse-section` + (tour + 1) + `" checked aria-hidden="true">
         <label for="collapse-section1" aria-hidden="true">` + cartes[tour][0] + ` (` + tour + `)</label>
         <div>
-            <p>ATR: ` + cartes[tour][1] + `<button class="secondary suppCarte">Supprimer</button></p>
+            <p>ATR: ` + cartes[tour][1] + `<button class="secondary suppCarte" id="` + cartes[tour] + `">Supprimer</button></p>
         </div>
         `
     }
 
     document.getElementById("cartes").innerHTML = genHTML;
+    for(tour=0;tour < document.getElementsByClassName("suppCarte").length;tour++){
+        //document.getElementsByClassName("suppCarte")[tour]
+    }
 }
 ipc.send('Cartes', "");
 
 ipc.send('ATRConnecte', "");
 function ATRConnecte(event, arg){
-    // ici
+    console.log(arg);
+    var nomConnecte = "? ? ?";
+    for(tour=0;tour < cartes.length;tour++){
+        console.log(cartes[tour][1]);
+        if(cartes[tour][1] == arg){
+            nomConnecte = cartes[tour][0];
+        }
+    }
+    console.log(nomConnecte);
+    document.getElementById("tspan836").innerHTML = nomConnecte;
+    if(nomConnecte == "? ? ?"){
+        document.getElementById("rect912").style.fill = "var(--input-invalid-color)";
+    }
+    else{
+        document.getElementById("rect912").style.fill = "var(--carte)";
+    }
 }
 
 function Scanner(){
