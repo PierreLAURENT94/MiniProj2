@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="readme.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
    id="svg8"
    version="1.1"
    viewBox="0 0 500 200"
    height="200mm"
    width="500mm"
-   inkscape:export-filename="C:\Users\pierr\Desktop\Git\MiniProj2\Inkscape\readmesf.png"
+   inkscape:export-filename="C:\Users\plaurent\Desktop\MiniProj2\Inkscape\readmesf.png"
    inkscape:export-xdpi="50.799999"
-   inkscape:export-ydpi="50.799999">
+   inkscape:export-ydpi="50.799999"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2">
     <filter
@@ -35,9 +35,9 @@
     </filter>
     <filter
        height="1.0048"
-       y="-0.0024"
+       y="-0.0024000001"
        width="1.0048"
-       x="-0.0024"
+       x="-0.0024000001"
        id="filter943"
        style="color-interpolation-filters:sRGB"
        inkscape:collect="always">
@@ -70,9 +70,9 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="531.29405"
-     inkscape:cx="995.6261"
-     inkscape:zoom="0.3958091"
+     inkscape:cy="1217.7588"
+     inkscape:cx="1652.3117"
+     inkscape:zoom="0.098952275"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -88,7 +88,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -227,8 +226,10 @@
          id="text912"
          transform="translate(-40.979212,-108.25995)"><tspan
            x="916.2464"
-           y="243.81471"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:67.0278px;font-family:MuseoModerno;-inkscape-font-specification:'MuseoModerno Bold';fill:#333333;fill-opacity:1;stroke:none;stroke-width:2.15056;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">SECTION</tspan></tspan></text>
+           y="243.81471"
+           id="tspan991"><tspan
+             style="font-weight:bold;-inkscape-font-specification:'MuseoModerno Bold'"
+             id="tspan989">SECTION</tspan></tspan></text>
       <text
          transform="translate(-139.71707,149.34197)"
          id="text916"
@@ -237,13 +238,17 @@
          style="font-size:56.4444px;line-height:0.9;font-family:MuseoModerno;-inkscape-font-specification:MuseoModerno;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;white-space:pre;inline-size:333.342;opacity:0.993;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2.15056;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          xml:space="preserve"><tspan
            x="1161.1974"
-           y="243.81471"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:56.4444px;font-family:MuseoModerno;-inkscape-font-specification:'MuseoModerno Bold';fill:#333333;fill-opacity:1;stroke:none;stroke-width:2.15056;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">LOUIS</tspan><tspan
-             style="fill:#333333;fill-opacity:1;stroke:none"></tspan><tspan
-             y="243.81471"> </tspan></tspan><tspan
+           y="243.81471"
+           id="tspan995"><tspan
+   style="font-weight:bold;-inkscape-font-specification:'MuseoModerno Bold'"
+   id="tspan993">LOUIS</tspan><tspan
+   y="243.81471"
+   id="tspan997"> </tspan></tspan><tspan
            x="1161.1974"
-           y="294.61467"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:56.4444px;font-family:MuseoModerno;-inkscape-font-specification:'MuseoModerno Bold';text-align:center;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2.15056;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">ARMAND</tspan></tspan></text>
+           y="296.0273"
+           id="tspan1001"><tspan
+             style="font-weight:bold;-inkscape-font-specification:'MuseoModerno Bold'"
+             id="tspan999">ARMAND</tspan></tspan></text>
       <text
          transform="translate(-150.62154,73.92144)"
          id="text957"
@@ -252,8 +257,10 @@
          style="font-size:176.389px;line-height:1.25;font-family:MuseoModerno;-inkscape-font-specification:MuseoModerno;letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:515.243;opacity:0.993;fill:#54b2e4;fill-opacity:1;stroke:none;stroke-width:2.15056;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          xml:space="preserve"><tspan
            x="916.2464"
-           y="243.81471"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:176.389px;font-family:MuseoModerno;-inkscape-font-specification:'MuseoModerno Bold';fill:#54b2e4;fill-opacity:1;stroke:none;stroke-width:2.15056;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">SN IR</tspan></tspan></text>
+           y="243.81471"
+           id="tspan1005"><tspan
+             style="font-weight:bold;-inkscape-font-specification:'MuseoModerno Bold'"
+             id="tspan1003">SN IR</tspan></tspan></text>
     </g>
     <g
        transform="matrix(3.3101698,0,0,3.3101698,-454.24795,14.508621)"
@@ -422,37 +429,41 @@
            x="346.70886"
            sodipodi:role="line" /></text>
     </g>
-    <text
-       id="text932"
-       y="194.99841"
-       x="61.782597"
-       style="font-size:12.451px;line-height:1.25;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#54b2e4;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         style="text-align:start;text-anchor:start;fill:#54b2e4;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+    <g
+       id="g9151"
+       transform="translate(-29.368086)">
+      <text
+         id="text932"
          y="194.99841"
          x="61.782597"
-         sodipodi:role="line"
-         id="tspan928">        Pierre LAURENT      Vincent LORCY                               Y.VALLET</tspan><tspan
-         id="tspan930"
-         style="text-align:start;text-anchor:start;fill:#54b2e4;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         y="210.56216"
-         x="61.782597"
-         sodipodi:role="line" /></text>
-    <text
-       xml:space="preserve"
-       style="font-size:12.451px;line-height:1.25;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="62.314533"
-       y="194.99841"
-       id="text886"><tspan
-         id="tspan892"
-         sodipodi:role="line"
+         style="font-size:12.451px;line-height:1.25;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#54b2e4;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="text-align:start;text-anchor:start;fill:#54b2e4;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           y="194.99841"
+           x="61.782597"
+           sodipodi:role="line"
+           id="tspan928">        Pierre LAURENT      Vincent LORCY                               Yanne VALLETTE</tspan><tspan
+           id="tspan930"
+           style="text-align:start;text-anchor:start;fill:#54b2e4;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           y="210.56216"
+           x="61.782597"
+           sodipodi:role="line" /></text>
+      <text
+         xml:space="preserve"
+         style="font-size:12.451px;line-height:1.25;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          x="62.314533"
          y="194.99841"
-         style="text-align:start;text-anchor:start;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Par                                  et                                • Encadrement </tspan><tspan
-         sodipodi:role="line"
-         x="62.314533"
-         y="210.56216"
-         style="text-align:start;text-anchor:start;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="tspan884" /></text>
+         id="text886"><tspan
+           id="tspan892"
+           sodipodi:role="line"
+           x="62.314533"
+           y="194.99841"
+           style="text-align:start;text-anchor:start;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Par                                  et                                • Encadrement </tspan><tspan
+           sodipodi:role="line"
+           x="62.314533"
+           y="210.56216"
+           style="text-align:start;text-anchor:start;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="tspan884" /></text>
+    </g>
   </g>
 </svg>
