@@ -21,4 +21,13 @@ npm i
 
 npm start
 ```
+## Screenshots :
+### Passage d'une carte inconnue :
+![](/Administratif/imgs/pb.PNG)
+### Enregistrement d'une nouvelle carte :
+![](/Administratif/imgs/att.PNG)
+### Passage d'une carte enregistrée :
+![](/Administratif/imgs/ok.PNG)
+### Afficheur WEB (Pour un panneau géant par exemple) :
+![](/Administratif/imgs/AfficheurWEB.PNG)
 > Pierre LAURENT • Vincent LORCY • Nov 2021
