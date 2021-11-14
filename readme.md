@@ -30,4 +30,5 @@ npm start
 ![](/Administratif/imgs/ok.PNG)
 ### Afficheur WEB (Pour un panneau géant par exemple) :
 ![](/Administratif/imgs/AfficheurWEB.PNG)
+## [Compte Rendu](/Administratif/Compte Rendu.pdf) 
 > Pierre LAURENT • Vincent LORCY • Nov 2021
